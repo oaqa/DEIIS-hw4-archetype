@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.deiis.vector_space.casconsumers;
+package ${package}.casconsumers;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.ResourceProcessException;
 import org.apache.uima.util.ProcessTrace;
 
-import ${package}.deiis.vector_space.typesystems.Document;
+import ${package}.typesystems.Document;
 
 
 public class RetrievalEvaluator extends CasConsumer_ImplBase {

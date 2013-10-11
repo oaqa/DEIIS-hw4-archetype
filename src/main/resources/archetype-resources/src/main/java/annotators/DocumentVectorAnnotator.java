@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.deiis.vector_space.annotators;
+package ${package}.annotators;
 
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.IntegerArray;
 import org.apache.uima.jcas.cas.StringArray;
 import org.apache.uima.jcas.tcas.Annotation;
 
-import ${package}.deiis.vector_space.typesystems.Document;
+import ${package}.typesystems.Document;
 
 public class DocumentVectorAnnotator extends JCasAnnotator_ImplBase {
 

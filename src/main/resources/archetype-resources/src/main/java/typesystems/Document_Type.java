@@ -1,6 +1,9 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
 
 /* First created by JCasGen Fri Oct 11 01:58:03 EDT 2013 */
-package edu.cmu.deiis.vector_space.typesystems;
+package ${package}.typesystems;
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -42,7 +45,7 @@ public class Document_Type extends Annotation_Type {
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("edu.cmu.deiis.vector_space.typesystems.Document");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("${package}.typesystems.Document");
  
   /** @generated */
   final Feature casFeat_relevanceValue;
@@ -51,13 +54,13 @@ public class Document_Type extends Annotation_Type {
   /** @generated */ 
   public int getRelevanceValue(int addr) {
         if (featOkTst && casFeat_relevanceValue == null)
-      jcas.throwFeatMissing("relevanceValue", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("relevanceValue", "${package}.typesystems.Document");
     return ll_cas.ll_getIntValue(addr, casFeatCode_relevanceValue);
   }
   /** @generated */    
   public void setRelevanceValue(int addr, int v) {
         if (featOkTst && casFeat_relevanceValue == null)
-      jcas.throwFeatMissing("relevanceValue", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("relevanceValue", "${package}.typesystems.Document");
     ll_cas.ll_setIntValue(addr, casFeatCode_relevanceValue, v);}
     
   
@@ -69,13 +72,13 @@ public class Document_Type extends Annotation_Type {
   /** @generated */ 
   public int getQueryID(int addr) {
         if (featOkTst && casFeat_queryID == null)
-      jcas.throwFeatMissing("queryID", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("queryID", "${package}.typesystems.Document");
     return ll_cas.ll_getIntValue(addr, casFeatCode_queryID);
   }
   /** @generated */    
   public void setQueryID(int addr, int v) {
         if (featOkTst && casFeat_queryID == null)
-      jcas.throwFeatMissing("queryID", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("queryID", "${package}.typesystems.Document");
     ll_cas.ll_setIntValue(addr, casFeatCode_queryID, v);}
     
   
@@ -87,13 +90,13 @@ public class Document_Type extends Annotation_Type {
   /** @generated */ 
   public String getText(int addr) {
         if (featOkTst && casFeat_text == null)
-      jcas.throwFeatMissing("text", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("text", "${package}.typesystems.Document");
     return ll_cas.ll_getStringValue(addr, casFeatCode_text);
   }
   /** @generated */    
   public void setText(int addr, String v) {
         if (featOkTst && casFeat_text == null)
-      jcas.throwFeatMissing("text", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("text", "${package}.typesystems.Document");
     ll_cas.ll_setStringValue(addr, casFeatCode_text, v);}
     
   
@@ -105,13 +108,13 @@ public class Document_Type extends Annotation_Type {
   /** @generated */ 
   public int getTokenList(int addr) {
         if (featOkTst && casFeat_tokenList == null)
-      jcas.throwFeatMissing("tokenList", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("tokenList", "${package}.typesystems.Document");
     return ll_cas.ll_getRefValue(addr, casFeatCode_tokenList);
   }
   /** @generated */    
   public void setTokenList(int addr, int v) {
         if (featOkTst && casFeat_tokenList == null)
-      jcas.throwFeatMissing("tokenList", "edu.cmu.deiis.vector_space.typesystems.Document");
+      jcas.throwFeatMissing("tokenList", "${package}.typesystems.Document");
     ll_cas.ll_setRefValue(addr, casFeatCode_tokenList, v);}
     
   

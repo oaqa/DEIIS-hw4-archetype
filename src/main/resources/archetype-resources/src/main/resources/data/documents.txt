@@ -1,6 +1,3 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
 qid=1	rel=99	Classical music is dying
 qid=1	rel=0	Pop music has absorbed influences from most other genres of popular music
 qid=1	rel=1	Classical music may never be the most popular music

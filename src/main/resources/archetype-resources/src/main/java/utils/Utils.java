@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.deiis.vector_space.utils;
+package ${package}.utils;
 
 import java.util.ArrayList;
 import java.util.Collection;

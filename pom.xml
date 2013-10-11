@@ -5,7 +5,7 @@
 
 	<groupId>edu.cmu.lti.11791.f13.hw4</groupId>
 	<artifactId>hw4-archetype</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>hw4-archetype</name>

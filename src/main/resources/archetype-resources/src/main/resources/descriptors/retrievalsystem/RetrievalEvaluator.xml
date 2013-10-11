@@ -5,7 +5,7 @@
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>true</primitive>
-  <annotatorImplementationName>${package}.deiis.vector_space.casconsumers.RetrievalEvaluator</annotatorImplementationName>
+  <annotatorImplementationName>${package}.casconsumers.RetrievalEvaluator</annotatorImplementationName>
   <analysisEngineMetaData>
     <name>RetrievalEvaluator</name>
     <description/>

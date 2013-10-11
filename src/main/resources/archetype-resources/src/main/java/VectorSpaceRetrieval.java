@@ -25,7 +25,7 @@
  * 3. (optional) Improve the efficiency of the program and reduce the runtime of the retrieval system
  * 
  */
-package ${package}.deiis.vector_space;
+package ${package};
 
 import java.io.BufferedReader;
 import java.io.FileReader;

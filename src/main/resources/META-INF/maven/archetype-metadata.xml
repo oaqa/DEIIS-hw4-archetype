@@ -13,12 +13,12 @@
       <directory>src/main/resources</directory>
       <includes>
         <include>**/*.xml</include>
-        <include>**/*.txt</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
+        <include>**/*.txt</include>
         <include>**/*.pdf</include>
       </includes>
     </fileSet>

@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.deiis.vector_space.collectionreaders;
+package ${package}.collectionreaders;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.jcas.JCas;
 
-import ${package}.deiis.vector_space.typesystems.Document;
+import ${package}.typesystems.Document;
 
 
 public class DocumentReader 
