@@ -30,8 +30,8 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git@github.com:Digo/DEIIS-hw2-archetype.git</connection>
-		<developerConnection>scm:git:git@github.com:Digo/DEIIS-hw2-archetype.git</developerConnection>
+		<connection>scm:git:git@github.com:oaqa/DEIIS-hw4-archetype.git</connection>
+		<developerConnection>scm:git:git@github.com:oaqa/DEIIS-hw4-archetype.git</developerConnection>
 	</scm>
 	
 	<distributionManagement>
