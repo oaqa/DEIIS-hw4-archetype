@@ -10,9 +10,9 @@
  * This is the main function of this retrieval system.
  * The analysis engine is SentenceAnalysis
  * It composed of three analysis components, i.e.
- * 1. SentenceSplitter  :: identify the query id and relevant scores
- * 2. SentenceParser    :: identify the word and word frequency in each sentence
- * 3. SentenceEvaluator :: compute the similarity and performance metric of the collection 
+ * 1. DocumentReader  :: identify the query id and relevant scores
+ * 2. DocumentVectorAnnotator    :: identify the word and word frequency in each sentence
+ * 3. RetrievalEvaluator :: compute the similarity and performance metric of the collection 
  * 
  * 
  * PROCEDURE 
